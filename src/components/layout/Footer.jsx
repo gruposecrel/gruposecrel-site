@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2.5 mb-4">
-              <img src="/images/logo-secrel.png" alt="Grupo Secrel" className="h-10 w-auto" width="37" height="40" />
+              <img src={`${import.meta.env.BASE_URL}images/logo-secrel.png`} alt="Grupo Secrel" className="h-10 w-auto" width="37" height="40" />
               <span className="font-[var(--font-display)] font-bold text-lg text-[var(--color-primary)]">Grupo Secrel</span>
             </div>
             <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed mb-6">{t('footer.description')}</p>

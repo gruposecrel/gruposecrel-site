@@ -9,10 +9,10 @@ import Button from '../ui/Button'
 import { segments, siteData } from '../../data/content'
 
 const segmentData = {
-  oticas: { bg: '#EFF6FF', accent: '#3B82F6', ring: '#BFDBFE', image: '/images/segments/oticas.jpg' },
-  varejo: { bg: '#F0FDF4', accent: '#10B981', ring: '#BBF7D0', image: '/images/segments/varejo.jpg' },
-  autopecas: { bg: '#FFFBEB', accent: '#F59E0B', ring: '#FDE68A', image: '/images/segments/autopecas.jpg' },
-  moda: { bg: '#FDF2F8', accent: '#EC4899', ring: '#FBCFE8', image: '/images/segments/moda.jpg' },
+  oticas: { bg: '#EFF6FF', accent: '#3B82F6', ring: '#BFDBFE', image: `${import.meta.env.BASE_URL}images/segments/oticas.jpg` },
+  varejo: { bg: '#F0FDF4', accent: '#10B981', ring: '#BBF7D0', image: `${import.meta.env.BASE_URL}images/segments/varejo.jpg` },
+  autopecas: { bg: '#FFFBEB', accent: '#F59E0B', ring: '#FDE68A', image: `${import.meta.env.BASE_URL}images/segments/autopecas.jpg` },
+  moda: { bg: '#FDF2F8', accent: '#EC4899', ring: '#FBCFE8', image: `${import.meta.env.BASE_URL}images/segments/moda.jpg` },
 }
 
 export default function Segments() {

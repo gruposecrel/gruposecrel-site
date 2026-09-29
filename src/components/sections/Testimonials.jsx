@@ -7,10 +7,10 @@ import AnimatedText from '../ui/AnimatedText'
 import { testimonials } from '../../data/content'
 
 const partnerLogos = [
-  { name: 'Microsoft', src: '/images/partners/microsoft.png', h: 'h-8 md:h-10' },
-  { name: 'Oracle', src: '/images/partners/oracle.png', h: 'h-6 md:h-8' },
-  { name: 'Fiserv', src: '/images/partners/fiserv.png', h: 'h-8 md:h-10' },
-  { name: 'Luxottica', src: '/images/partners/luxottica.png', h: 'h-5 md:h-6' },
+  { name: 'Microsoft', src: `${import.meta.env.BASE_URL}images/partners/microsoft.png`, h: 'h-8 md:h-10' },
+  { name: 'Oracle', src: `${import.meta.env.BASE_URL}images/partners/oracle.png`, h: 'h-6 md:h-8' },
+  { name: 'Fiserv', src: `${import.meta.env.BASE_URL}images/partners/fiserv.png`, h: 'h-8 md:h-10' },
+  { name: 'Luxottica', src: `${import.meta.env.BASE_URL}images/partners/luxottica.png`, h: 'h-5 md:h-6' },
 ]
 
 function PartnerLogos() {

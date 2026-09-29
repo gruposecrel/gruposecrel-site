@@ -25,7 +25,7 @@ export default function VideoDemo() {
         <div className="max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-xl border border-[var(--color-border)]">
           <video
             className="w-full h-auto block"
-            src="/videos/nexgen-demo.mp4"
+            src={`${import.meta.env.BASE_URL}videos/nexgen-demo.mp4`}
             controls
             preload="metadata"
             playsInline

@@ -46,7 +46,7 @@ export default function Navbar() {
         <div className={`mx-auto max-w-[var(--container-max)] px-6 md:px-10 lg:px-20 flex items-center justify-between h-16 md:h-20 ${bg}`}>
           {/* Logo */}
           <a href="#" className={`flex items-center gap-2.5 group min-h-[44px] ${bg}`}>
-            <img src="/images/logo-secrel.png" alt="Grupo Secrel" className="h-9 w-auto" width="33" height="36" />
+            <img src={`${import.meta.env.BASE_URL}images/logo-secrel.png`} alt="Grupo Secrel" className="h-9 w-auto" width="33" height="36" />
             <span className={`font-[var(--font-display)] font-bold text-lg transition-colors ${
               scrolled ? 'text-[var(--color-primary)]' : 'text-white'
             } group-hover:text-[var(--color-secondary)]`}>Secrel</span>
