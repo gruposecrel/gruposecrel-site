@@ -78,11 +78,6 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-text-on-dark);
 }
 
-/* Nav contrast fix — all text elements get explicit bg */
-nav span, nav a {
-  background-color: inherit !important;
-}
-
 /* Explicit hover states for links */
 a:hover {
   opacity: 0.9;

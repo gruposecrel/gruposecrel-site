@@ -1,10 +1,10 @@
 @theme {
   /* Colors — Light theme with dark Hero accent */
-  --color-primary: #1E3A5F;
-  --color-primary-light: #2A5080;
+  --color-primary: #0D1F3C;
+  --color-primary-light: #1E3A5F;
   --color-primary-dark: #142944;
-  --color-secondary: #6AB8EE;
-  --color-accent: #10B981;
+  --color-secondary: #3B6CE8;
+  --color-accent: #4A8DFF;
   --color-background: #FFFFFF;
   --color-background-alt: #F8FAFC;
   --color-surface: #F1F5F9;
