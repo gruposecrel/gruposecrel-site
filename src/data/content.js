@@ -1,5 +1,5 @@
 import {
-  Store, ShoppingCart, FileText, Wallet, BarChart3, Truck, Tablet,
+  Store, ShoppingCart, FileText, Wallet, BarChart3, Gift, Tablet,
   Eye, Car, Shirt, ShoppingBag,
   Cloud, Headphones, Zap, LineChart, Clock,
 } from 'lucide-react'
@@ -13,7 +13,7 @@ export const siteData = {
   yearsInBusiness: 58,
   slogan: 'Tecnologia e Soluções Inovadoras',
   url: 'https://gruposecrel.com.br',
-  description: 'O Grupo Secrel oferece o NEXGEN, ERP completo na nuvem para varejo e atacado. 58 anos de experiência, parceiros Microsoft, Oracle e Fiserv.',
+  description: 'O Grupo Secrel oferece o NEXGEN, ERP completo na nuvem para o comércio (varejo e atacado). 58 anos de experiência, parceiros Microsoft, Oracle e Fiserv.',
   product: 'NEXGEN',
 
   contact: {
@@ -77,14 +77,14 @@ export const modules = [
     features: ['Contas a pagar/receber integrados', 'DRE e fluxo de caixa automáticos', 'Conciliação de cartão integrada', 'Tele cobrança SPC/SERASA'],
   },
   {
+    key: 'fidelidade',
+    icon: Gift,
+    features: ['Cashback configurável', 'Histórico de compras por cliente', 'Integração com adquirentes', 'Campanhas de retenção'],
+  },
+  {
     key: 'bi',
     icon: BarChart3,
     features: ['Power BI integrado nativamente', 'Dashboards de vendas e faturamento', 'Análise de estoque e compras', 'Relatórios financeiros visuais'],
-  },
-  {
-    key: 'entrega',
-    icon: Truck,
-    features: ['Geração de rotas otimizadas', 'Controle de veículos e motoristas', 'Gerenciamento de montagem', 'Pesquisa de satisfação'],
   },
   {
     key: 'tablet',
@@ -111,7 +111,7 @@ export const partners = [
 export const testimonials = [
   {
     key: 'emilio',
-    company: 'Cliente de 30+ anos',
+    company: 'Cliente de 50+ anos',
     context: 'Uma das parcerias mais longevas do setor de TI brasileiro',
   },
 ]

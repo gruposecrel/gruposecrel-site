@@ -6,6 +6,30 @@ import ScrollReveal from '../ui/ScrollReveal'
 import AnimatedText from '../ui/AnimatedText'
 import { testimonials } from '../../data/content'
 
+const partnerLogos = [
+  { name: 'Microsoft', src: '/images/partners/microsoft.png', h: 'h-8 md:h-10' },
+  { name: 'Oracle', src: '/images/partners/oracle.png', h: 'h-6 md:h-8' },
+  { name: 'Fiserv', src: '/images/partners/fiserv.png', h: 'h-8 md:h-10' },
+  { name: 'Luxottica', src: '/images/partners/luxottica.png', h: 'h-5 md:h-6' },
+]
+
+function PartnerLogos() {
+  const items = [...partnerLogos, ...partnerLogos, ...partnerLogos, ...partnerLogos]
+  return (
+    <div className="relative overflow-hidden mt-14">
+      <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-[var(--color-surface-dark)] to-transparent z-10 pointer-events-none" />
+      <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-[var(--color-surface-dark)] to-transparent z-10 pointer-events-none" />
+      <div className="flex items-center gap-16 animate-marquee py-2">
+        {items.map((p, i) => (
+          <div key={`${p.name}-${i}`} className="shrink-0 flex items-center px-4 opacity-60 hover:opacity-100 transition-opacity">
+            <img src={p.src} alt={p.name} className={`${p.h} w-auto object-contain brightness-0 invert`} loading="lazy" />
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 export default function Testimonials() {
   const { t } = useTranslation()
   const [current, setCurrent] = useState(0)
@@ -66,6 +90,8 @@ export default function Testimonials() {
             </div>
           </div>
         </ScrollReveal>
+
+        <PartnerLogos />
       </div>
     </section>
   )

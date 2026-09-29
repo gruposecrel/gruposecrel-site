@@ -11,7 +11,7 @@
     "support": "Suporte"
   },
   "hero": {
-    "title": "58 anos de código que transforma varejo",
+    "title": "58 anos de tecnologia que transforma comércio",
     "subtitle": "O NEXGEN é o ERP completo na nuvem que gerencia sua rede de lojas — do estoque ao BI, do fiscal ao financeiro. Infraestrutura Microsoft Azure.",
     "cta_demo": "Agendar Demonstração",
     "cta_consult": "Falar com Consultor"
@@ -22,7 +22,7 @@
     "cloud": "100% na nuvem"
   },
   "problem": {
-    "title": "Seu varejo ainda depende de planilhas e controles manuais?",
+    "title": "Seu comércio ainda depende de planilhas e controles manuais?",
     "pain1": "Estoque desatualizado entre lojas",
     "pain2": "Fiscal manual gerando multas",
     "pain3": "Sem visão unificada do negócio",
@@ -31,43 +31,43 @@
   },
   "modules": {
     "title": "Módulos que cobrem toda a operação",
-    "subtitle": "Cada módulo do NEXGEN foi construído com 58 anos de experiência em varejo real.",
+    "subtitle": "Cada módulo do NEXGEN foi construído com 58 anos de experiência em comércio real.",
     "retaguarda": "Retaguarda de Loja",
     "retaguarda_desc": "Catálogo, estoque, compras, inventário — tudo integrado em tempo real.",
     "frente": "Frente de Lojas",
-    "frente_desc": "PDV com TEF integrado, convênios, crediário próprio, campanhas.",
+    "frente_desc": "PDV com TEF integrado, convênios, crediário próprio, campanhas e totens de auto atendimento.",
     "fiscal": "Fiscal Completo",
-    "fiscal_desc": "CF-e, NFC-e, NF-e, SPED, DIFAL, CEST — conformidade total automatizada.",
+    "fiscal_desc": "NFC-e, NF-e, SPED Fiscal e Contribuições, DIFAL, CEST, Manifesto de NF-e e adequação à reforma tributária (IBS/CBS) — conformidade total.",
     "financeiro": "Retaguarda Financeira",
-    "financeiro_desc": "Contas a pagar/receber, DRE automático, conciliação de cartão, SPC/SERASA.",
+    "financeiro_desc": "Contas a pagar/receber, DRE automático, conciliação de cartão e bancária, SPC/SERASA.",
+    "fidelidade": "Cartão Fidelidade",
+    "fidelidade_desc": "Cashback configurável, histórico de compras por cliente e integrações com adquirentes para campanhas de retenção.",
     "bi": "Business Intelligence",
-    "bi_desc": "Power BI integrado — vendas, faturamento, estoque, financeiro em dashboards visuais.",
-    "entrega": "Entrega e Montagem",
-    "entrega_desc": "Rotas, veículos, montagem, pesquisa de satisfação — controle total da logística.",
+    "bi_desc": "BI integrado — vendas, faturamento, estoque, financeiro em dashboards visuais.",
     "tablet": "Vendas com Tablet",
     "tablet_desc": "Venda mobile com sugestão de produtos similares e disponibilidade multi-loja."
   },
+  "video_demo": {
+    "title": "Veja o NEXGEN em ação",
+    "subtitle": "Demonstrações curtas do sistema em funcionamento no PDV e no Backoffice."
+  },
   "segments": {
     "title": "Soluções sob medida para seu segmento",
-    "subtitle": "O NEXGEN tem processos nativos para cada tipo de varejo.",
+    "subtitle": "O NEXGEN tem processos nativos para cada tipo de comércio.",
     "oticas": "Óticas",
     "oticas_desc": "Laboratório óptico, controle de dioptria, OS, integração Luxottica STAR.",
-    "varejo": "Varejo Geral",
+    "varejo": "Comércio Geral",
     "varejo_desc": "Moda, eletrônicos, móveis, magazines — gestão completa de redes.",
     "autopecas": "Autopeças",
     "autopecas_desc": "Catálogo técnico, compatibilidade de veículos, controle de grade.",
     "moda": "Moda e Calçados",
     "moda_desc": "Grade de cores e tamanhos, coleções, campanhas sazonais, franquias."
   },
-  "partners": {
-    "title": "Parceiros que validam nossa tecnologia",
-    "subtitle": "Infraestrutura de nível global para seu varejo."
-  },
   "testimonials": {
-    "title": "Clientes que confiam na Secrel",
-    "emilio_text": "Como clientes do Grupo Secrel há mais de 30 anos, atestamos nossa satisfação e testemunhamos seu constante pioneirismo e permanente investimento na melhoria de processos e serviços.",
+    "title": "Quem confia na Secrel",
+    "emilio_text": "Como clientes do Grupo Secrel há mais de 50 anos, atestamos nossa satisfação e testemunhamos seu constante pioneirismo e permanente investimento na melhoria de processos e serviços.",
     "emilio_author": "Emilio Recamonde",
-    "emilio_role": "Diretor Financeiro — Cliente há 30+ anos"
+    "emilio_role": "CEO do Grupo C.Rolim — Cliente há 50+ anos"
   },
   "differentials": {
     "title": "Por que o NEXGEN é a escolha segura",
@@ -80,7 +80,7 @@
     "deploy": "Implantação rápida",
     "deploy_desc": "Treinamento remoto + agente IA conversacional para dúvidas.",
     "bi": "BI integrado",
-    "bi_desc": "Power BI nativo — dashboards de vendas, estoque e financeiro."
+    "bi_desc": "BI nativo — dashboards de vendas, estoque e financeiro."
   },
   "pricing_preview": {
     "title": "Investimento transparente",
@@ -106,7 +106,7 @@
     "subtitle": "Respostas diretas para suas principais dúvidas."
   },
   "cta_final": {
-    "title": "Descubra como o NEXGEN transforma seu varejo",
+    "title": "Descubra como o NEXGEN transforma seu comércio",
     "subtitle": "Solicite um diagnóstico gratuito e receba um plano personalizado para sua operação.",
     "cta_demo": "Agendar Demonstração Gratuita",
     "cta_whatsapp": "Falar pelo WhatsApp"

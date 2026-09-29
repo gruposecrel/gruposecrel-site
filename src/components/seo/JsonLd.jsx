@@ -88,7 +88,7 @@ export default function JsonLd() {
   const webPageSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Grupo Secrel — ERP NEXGEN | 58 Anos Transformando o Varejo',
+    name: 'Grupo Secrel — ERP NEXGEN | 58 Anos Transformando o Comércio',
     description: siteData.description,
     url: siteData.url,
     inLanguage: ['pt-BR', 'en'],
