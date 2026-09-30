@@ -84,7 +84,7 @@ export const modules = [
   {
     key: 'bi',
     icon: BarChart3,
-    features: ['Power BI integrado nativamente', 'Dashboards de vendas e faturamento', 'Análise de estoque e compras', 'Relatórios financeiros visuais'],
+    features: ['BI integrado nativamente', 'Dashboards de vendas e faturamento', 'Análise de estoque e compras', 'Relatórios financeiros visuais'],
   },
   {
     key: 'tablet',
