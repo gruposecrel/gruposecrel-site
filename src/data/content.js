@@ -74,7 +74,7 @@ export const modules = [
   {
     key: 'financeiro',
     icon: Wallet,
-    features: ['Contas a pagar/receber integrados', 'DRE e fluxo de caixa automáticos', 'Conciliação de cartão integrada', 'Tele cobrança SPC/SERASA'],
+    features: ['Contas a pagar/receber integrados', 'DRE e fluxo de caixa automáticos', 'Conciliação de cartão integrada', 'Conciliação bancária automatizada', 'Tele cobrança SPC/SERASA'],
   },
   {
     key: 'fidelidade',
