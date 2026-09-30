@@ -69,7 +69,7 @@ export const modules = [
   {
     key: 'fiscal',
     icon: FileText,
-    features: ['CF-e, NFC-e, NF-e', 'SPED, SINTEGRA, SEF-II', 'DIFAL, CEST, GTIN', 'Cartas de correção e complementares'],
+    features: ['NFC-e e NF-e', 'SPED Fiscal e SPED Contribuições', 'DIFAL e CEST', 'Carta de Correção e Nota Fiscal Complementar', 'Manifesto de NF-e com importação de notas de entrada', 'Adequação à nova reforma tributária (IBS/CBS)'],
   },
   {
     key: 'financeiro',
