@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Phone, Headphones, Mail, MapPin, Instagram, Linkedin, Facebook, Globe } from 'lucide-react'
+import { Phone, Headphones, Mail, MapPin, Instagram, Linkedin, Facebook, Globe, ExternalLink } from 'lucide-react'
 import { siteData } from '../../data/content'
 
 const socialLinks = [
@@ -48,8 +48,10 @@ export default function Footer() {
             <h4 className="font-[var(--font-display)] font-semibold text-[var(--color-text-primary)] mb-4">{t('footer.company')}</h4>
             <ul className="space-y-3 text-sm text-[var(--color-text-secondary)]">
               <li><a href="#differentials" className="hover:text-[var(--color-primary)] transition-colors min-h-[44px] inline-flex items-center">{t('nav.about')}</a></li>
-              <li><a href="#partners" className="hover:text-[var(--color-primary)] transition-colors min-h-[44px] inline-flex items-center">{t('partners.title')}</a></li>
+              <li><a href="#testimonials" className="hover:text-[var(--color-primary)] transition-colors min-h-[44px] inline-flex items-center">{t('footer.partners_link')}</a></li>
               <li><a href="#faq" className="hover:text-[var(--color-primary)] transition-colors min-h-[44px] inline-flex items-center">{t('faq.title')}</a></li>
+              <li><a href={siteData.contact.supportSystem} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-primary)] transition-colors min-h-[44px] inline-flex items-center gap-1.5">
+                <ExternalLink size={13} /> {t('footer.portal')}</a></li>
             </ul>
           </div>
           <div>

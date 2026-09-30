@@ -113,14 +113,16 @@
     "cta_whatsapp": "Falar pelo WhatsApp"
   },
   "footer": {
-    "description": "Tecnologia e Soluções Inovadoras para o varejo brasileiro desde 1967.",
+    "description": "Tecnologia e Soluções Inovadoras para o comércio brasileiro desde 1967.",
     "solutions": "Soluções",
     "company": "Institucional",
     "support_title": "Suporte",
     "sales": "Vendas",
     "support_contact": "Suporte ao Cliente",
     "admin": "Administrativo",
-    "rights": "Todos os direitos reservados."
+    "rights": "Todos os direitos reservados.",
+    "partners_link": "Parceiros que validam nossa tecnologia",
+    "portal": "Portal do Cliente"
   },
   "lang": {
     "pt": "Português",
