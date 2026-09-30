@@ -40,7 +40,7 @@ export default function FloatingCta() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 40 }}
-          className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3"
+          className="fixed bottom-12 right-6 z-50 flex flex-col items-end gap-3"
         >
           {/* Extra option: Suporte */}
           <AnimatePresence>
