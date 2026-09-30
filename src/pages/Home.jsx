@@ -14,9 +14,8 @@ import CtaFinal from '../components/sections/CtaFinal'
 export default function Home() {
   return (
     <>
-      {/* DARK */}
-      <Hero />
       {/* LIGHT */}
+      <Hero />
       <TrustBar />
       <Problem />
       <ImpactStrip text="58 anos de código que não para — do bureau de dados ao cloud." dark />

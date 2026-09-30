@@ -26,22 +26,22 @@ export default function Hero() {
   const words = t('hero.title').split(' ')
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-[var(--color-surface-dark)]">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-white">
       {/* Gradient mesh background */}
       <div
         ref={blobRef}
-        className="absolute inset-0 opacity-50"
+        className="absolute inset-0 opacity-100"
         style={{
-          background: 'radial-gradient(ellipse at 20% 50%, rgba(106,184,238,0.25) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(30,58,95,0.4) 0%, transparent 50%), radial-gradient(ellipse at 50% 80%, rgba(16,185,129,0.1) 0%, transparent 50%)',
+          background: 'radial-gradient(at 20% 50%, rgba(59,108,232,0.1) 0%, transparent 55%), radial-gradient(at 80% 20%, rgba(74,141,255,0.08) 0%, transparent 55%), radial-gradient(at 50% 90%, rgba(13,31,60,0.04) 0%, transparent 55%)',
           backgroundSize: '200% 200%',
         }}
       />
 
       {/* Grid pattern overlay */}
       <div
-        className="absolute inset-0 opacity-[0.04]"
+        className="absolute inset-0 opacity-[0.05]"
         style={{
-          backgroundImage: 'linear-gradient(rgba(106,184,238,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(106,184,238,0.5) 1px, transparent 1px)',
+          backgroundImage: 'linear-gradient(rgba(13,31,60,0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(13,31,60,0.4) 1px, transparent 1px)',
           backgroundSize: '60px 60px',
         }}
       />
@@ -53,9 +53,9 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/15 bg-white/5 backdrop-blur-sm text-sm text-[var(--color-text-on-dark)]/80 mb-8"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[var(--color-border)] bg-white shadow-sm text-sm text-[var(--color-text-secondary)] mb-8"
           >
-            <span className="w-2 h-2 rounded-full bg-[var(--color-accent)] animate-pulse" />
+            <span className="w-2 h-2 rounded-full bg-[var(--color-secondary)] animate-pulse" />
             {siteData.slogan}
           </motion.div>
 
@@ -68,9 +68,9 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 + i * 0.08, ease: [0.25, 0.46, 0.45, 0.94] }}
                 className={`inline-block mr-[0.25em] ${
-                  word === '58' || word === 'código' || word === 'code'
+                  word === '58' || word === 'tecnologia' || word === 'código' || word === 'code'
                     ? 'text-[var(--color-secondary)]'
-                    : 'text-white'
+                    : 'text-[var(--color-text-primary)]'
                 }`}
               >
                 {word}
@@ -83,7 +83,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1 }}
-            className="text-lg md:text-xl text-white/70 leading-relaxed max-w-2xl mb-10"
+            className="text-lg md:text-xl text-[var(--color-text-secondary)] leading-relaxed max-w-2xl mb-10"
           >
             {t('hero.subtitle')}
           </motion.p>
@@ -103,7 +103,7 @@ export default function Hero() {
               <Phone size={18} />
               {t('hero.cta_demo')}
             </Button>
-            <Button href="#modules" variant="ghost-light" className="text-base">
+            <Button href="#modules" variant="ghost" className="text-base">
               {t('hero.cta_consult')}
               <ArrowRight size={18} />
             </Button>
@@ -120,18 +120,14 @@ export default function Hero() {
               { name: 'Microsoft', src: `${import.meta.env.BASE_URL}images/partners/microsoft.png`, h: 'h-4 md:h-5' },
               { name: 'Oracle', src: `${import.meta.env.BASE_URL}images/partners/oracle.png`, h: 'h-4 md:h-5' },
               { name: 'Fiserv', src: `${import.meta.env.BASE_URL}images/partners/fiserv.png`, h: 'h-4 md:h-5' },
-              { name: 'Luxottica', src: `${import.meta.env.BASE_URL}images/partners/luxottica.png`, h: 'h-3 md:h-3.5' },
             ].map((p) => (
-              <span key={p.name} className="flex items-center bg-white/5 border border-white/10 rounded-full px-3 py-1.5">
-                <img src={p.src} alt={p.name} className={`${p.h} w-auto brightness-0 invert opacity-60`} loading="lazy" />
+              <span key={p.name} className="flex items-center bg-white border border-[var(--color-border)] rounded-full px-3 py-1.5 shadow-sm">
+                <img src={p.src} alt={p.name} className={`${p.h} w-auto opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all`} loading="lazy" />
               </span>
             ))}
           </motion.div>
         </div>
       </div>
-
-      {/* Bottom gradient fade to white */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
     </section>
   )
 }
