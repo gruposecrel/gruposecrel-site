@@ -23,9 +23,7 @@ export default function Home() {
       <Modules />
       <VideoDemo />
       <Segments />
-      {/* DARK */}
       <Testimonials />
-      {/* LIGHT */}
       <Differentials />
       <PricingPreview />
       <Faq />
