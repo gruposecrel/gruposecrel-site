@@ -64,7 +64,7 @@ export const modules = [
   {
     key: 'frente',
     icon: ShoppingCart,
-    features: ['PDV com TEF integrado', 'Convênios e crediário próprio', 'Reserva de produtos', 'Promoções e campanhas configuráveis'],
+    features: ['PDV com TEF integrado', 'Convênios e crediário próprio', 'Reserva de produtos', 'Promoções e campanhas configuráveis', 'Recebimentos em totens de auto atendimento'],
   },
   {
     key: 'fiscal',
