@@ -1,5 +1,5 @@
 import {
-  Store, ShoppingCart, FileText, Wallet, BarChart3, Gift, Tablet,
+  Store, ShoppingCart, FileText, Wallet, BarChart3, CreditCard, Tablet,
   Eye, Car, Shirt, ShoppingBag,
   Cloud, Headphones, Zap, LineChart, Clock,
 } from 'lucide-react'
@@ -78,8 +78,8 @@ export const modules = [
   },
   {
     key: 'fidelidade',
-    icon: Gift,
-    features: ['Cashback configurável', 'Histórico de compras por cliente', 'Integração com adquirentes', 'Campanhas de retenção'],
+    icon: CreditCard,
+    features: ['Cashback configurável', 'Histórico de compras por cliente', 'Integrações com adquirentes e PSPs', 'Campanhas de fidelidade'],
   },
   {
     key: 'bi',
