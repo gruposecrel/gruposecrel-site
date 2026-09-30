@@ -10,13 +10,12 @@ const partnerLogos = [
   { name: 'Microsoft', src: `${import.meta.env.BASE_URL}images/partners/microsoft.png`, h: 'h-8 md:h-10' },
   { name: 'Oracle', src: `${import.meta.env.BASE_URL}images/partners/oracle.png`, h: 'h-6 md:h-8' },
   { name: 'Fiserv', src: `${import.meta.env.BASE_URL}images/partners/fiserv.png`, h: 'h-8 md:h-10' },
-  { name: 'Luxottica', src: `${import.meta.env.BASE_URL}images/partners/luxottica.png`, h: 'h-5 md:h-6' },
 ]
 
 function PartnerLogos() {
   const items = [...partnerLogos, ...partnerLogos, ...partnerLogos, ...partnerLogos]
   return (
-    <div className="relative overflow-hidden mt-14">
+    <div className="relative overflow-hidden mb-14">
       <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-[var(--color-surface-dark)] to-transparent z-10 pointer-events-none" />
       <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-[var(--color-surface-dark)] to-transparent z-10 pointer-events-none" />
       <div className="flex items-center gap-16 animate-marquee py-2">
@@ -47,6 +46,8 @@ export default function Testimonials() {
             className="font-[var(--font-display)] text-3xl md:text-4xl lg:text-5xl font-bold text-white"
           />
         </div>
+
+        <PartnerLogos />
 
         <ScrollReveal>
           <div className="max-w-3xl mx-auto">
@@ -90,8 +91,6 @@ export default function Testimonials() {
             </div>
           </div>
         </ScrollReveal>
-
-        <PartnerLogos />
       </div>
     </section>
   )
