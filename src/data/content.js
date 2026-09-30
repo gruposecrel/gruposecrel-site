@@ -79,7 +79,7 @@ export const modules = [
   {
     key: 'fidelidade',
     icon: CreditCard,
-    features: ['Cashback configurável', 'Histórico de compras por cliente', 'Integrações com adquirentes e PSPs', 'Campanhas de fidelidade'],
+    features: ['Cashback configurável por cliente', 'Histórico de compras por cliente', 'Integrações com adquirentes e PSPs', 'Campanhas de fidelidade'],
   },
   {
     key: 'bi',
