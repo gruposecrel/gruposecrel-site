@@ -160,7 +160,7 @@ export const pricing = {
 export const faqs = [
   {
     question: 'O NEXGEN funciona 100% na nuvem?',
-    answer: 'Sim. O NEXGEN roda em infraestrutura Microsoft Azure com bancos SQL Server ou Oracle. Para lojas com internet instável, há opção de servidores locais de contingência com sincronização automática.',
+    answer: 'Sim. O NEXGEN roda em infraestrutura Microsoft Azure com bancos SQL Server.',
   },
   {
     question: 'Quanto custa o NEXGEN para uma loja pequena?',
