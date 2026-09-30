@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'motion/react'
 import { Phone, Headphones, ChevronUp } from 'lucide-react'
 import { siteData } from '../../data/content'
 
-export default function FloatingCta() {
+export default function FloatingCta({ hidden = false }) {
   const [visible, setVisible] = useState(false)
   const [showExtra, setShowExtra] = useState(false)
   const [onDark, setOnDark] = useState(false)
@@ -35,7 +35,7 @@ export default function FloatingCta() {
 
   return (
     <AnimatePresence>
-      {visible && (
+      {visible && !hidden && (
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}

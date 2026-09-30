@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'motion/react'
 import { Menu, X, Phone, Headphones, ExternalLink } from 'lucide-react'
@@ -12,9 +12,8 @@ const navLinks = [
   { key: 'nav.about', href: '#differentials', minW: 'min-w-[100px]' },
 ]
 
-export default function Navbar() {
+export default function Navbar({ isOpen, setIsOpen }) {
   const { t } = useTranslation()
-  const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
     if (isOpen) document.body.style.overflow = 'hidden'
