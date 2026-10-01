@@ -8,10 +8,11 @@
     "about": "About Us",
     "contact": "Contact",
     "demo": "Book a Demo",
-    "support": "Support"
+    "support": "Support",
+    "portal": "Client Portal"
   },
   "hero": {
-    "title": "58 years of code transforming retail",
+    "title": "58 years of technology transforming commerce",
     "subtitle": "NEXGEN is the complete cloud ERP that manages your store network — from inventory to BI, from tax compliance to financials. Microsoft Azure infrastructure.",
     "cta_demo": "Book a Demo",
     "cta_consult": "Talk to a Consultant"
@@ -22,7 +23,7 @@
     "cloud": "100% cloud-based"
   },
   "problem": {
-    "title": "Is your retail still relying on spreadsheets and manual controls?",
+    "title": "Is your business still relying on spreadsheets and manual controls?",
     "pain1": "Outdated inventory across stores",
     "pain2": "Manual tax compliance generating fines",
     "pain3": "No unified business overview",
@@ -31,43 +32,43 @@
   },
   "modules": {
     "title": "Modules that cover every operation",
-    "subtitle": "Each NEXGEN module was built with 58 years of real retail experience.",
+    "subtitle": "Each NEXGEN module was built with 58 years of real commerce experience.",
     "retaguarda": "Store Back Office",
     "retaguarda_desc": "Catalog, inventory, purchasing, stocktaking — all integrated in real time.",
     "frente": "Point of Sale",
-    "frente_desc": "POS with integrated EFT, agreements, own credit plans, campaigns.",
+    "frente_desc": "POS with integrated EFT, agreements, own credit plans, campaigns and self-service kiosks.",
     "fiscal": "Complete Tax Compliance",
-    "fiscal_desc": "CF-e, NFC-e, NF-e, SPED, DIFAL, CEST — fully automated compliance.",
+    "fiscal_desc": "NFC-e, NF-e, SPED Fiscal and SPED Contribuições, DIFAL, CEST, NF-e manifest and adaptation to the new tax reform (IBS/CBS) — full compliance.",
     "financeiro": "Financial Back Office",
-    "financeiro_desc": "Payables/receivables, automatic P&L, card reconciliation, credit bureau.",
+    "financeiro_desc": "Payables/receivables, automatic P&L, card and bank reconciliation, credit bureau.",
+    "fidelidade": "Loyalty Card",
+    "fidelidade_desc": "Configurable cashback, customer purchase history and acquirer/PSP integrations for retention campaigns.",
     "bi": "Business Intelligence",
-    "bi_desc": "Integrated Power BI — sales, revenue, inventory, financial dashboards.",
-    "entrega": "Delivery & Assembly",
-    "entrega_desc": "Routes, vehicles, assembly, satisfaction surveys — total logistics control.",
+    "bi_desc": "Integrated BI — sales, revenue, inventory, financial dashboards.",
     "tablet": "Tablet Sales",
     "tablet_desc": "Mobile selling with product suggestions and multi-store availability."
   },
+  "video_demo": {
+    "title": "See NEXGEN in action",
+    "subtitle": "Short demos of the system running on the POS and Backoffice."
+  },
   "segments": {
     "title": "Tailored solutions for your segment",
-    "subtitle": "NEXGEN has native processes for every retail type.",
+    "subtitle": "NEXGEN has native processes for every type of commerce.",
     "oticas": "Optical Stores",
     "oticas_desc": "Optical lab, diopter control, work orders, Luxottica STAR integration.",
-    "varejo": "General Retail",
+    "varejo": "General Commerce",
     "varejo_desc": "Fashion, electronics, furniture, department stores — complete chain management.",
     "autopecas": "Auto Parts",
-    "autopecas_desc": "Technical catalog, vehicle compatibility, size grid control.",
+    "autopecas_desc": "Catalog with photos and application, smart distribution, automated purchase suggestions, shipping with checking and WMS integration.",
     "moda": "Fashion & Footwear",
     "moda_desc": "Color and size grids, collections, seasonal campaigns, franchises."
   },
-  "partners": {
-    "title": "Partners that validate our technology",
-    "subtitle": "World-class infrastructure for your retail."
-  },
   "testimonials": {
-    "title": "Clients who trust Secrel",
-    "emilio_text": "As clients of Grupo Secrel for over 30 years, we attest to our satisfaction and witness their constant pioneering and permanent investment in improving processes and services.",
+    "title": "Who trusts Secrel",
+    "emilio_text": "As clients of Grupo Secrel for over 50 years, we attest to our satisfaction and witness their constant pioneering and permanent investment in improving processes and services.",
     "emilio_author": "Emilio Recamonde",
-    "emilio_role": "CFO — Client for 30+ years"
+    "emilio_role": "CEO of Grupo C.Rolim — Client for 50+ years"
   },
   "differentials": {
     "title": "Why NEXGEN is the safe choice",
@@ -80,7 +81,7 @@
     "deploy": "Rapid deployment",
     "deploy_desc": "Remote training + AI conversational agent for questions.",
     "bi": "Integrated BI",
-    "bi_desc": "Native Power BI — sales, inventory and financial dashboards."
+    "bi_desc": "Native BI — sales, inventory and financial dashboards."
   },
   "pricing_preview": {
     "title": "Transparent investment",
@@ -106,20 +107,22 @@
     "subtitle": "Direct answers to your main questions."
   },
   "cta_final": {
-    "title": "Discover how NEXGEN transforms your retail",
+    "title": "Discover how NEXGEN transforms your commerce",
     "subtitle": "Request a free diagnostic and receive a personalized plan for your operation.",
     "cta_demo": "Book a Free Demo",
     "cta_whatsapp": "Chat on WhatsApp"
   },
   "footer": {
-    "description": "Technology and Innovative Solutions for Brazilian retail since 1967.",
+    "description": "Technology and Innovative Solutions for Brazilian commerce since 1967.",
     "solutions": "Solutions",
     "company": "Company",
     "support_title": "Support",
     "sales": "Sales",
     "support_contact": "Customer Support",
     "admin": "Administrative",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "partners_link": "Partners that validate our technology",
+    "portal": "Client Portal"
   },
   "lang": {
     "pt": "Português",
